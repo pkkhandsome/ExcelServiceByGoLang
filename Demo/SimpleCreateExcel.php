@@ -55,8 +55,6 @@
     $ExcelWriter->SetCellFontSize($myIndex,1,1,1,1,20);
     
     $ExcelWriter->SetCellFontColor($myIndex,1,1,1,1,"FF0000");
-
-    $ExcelWriter->SetCellFontStyle($myIndex,1,1,1,1,ExcelFontStyle::xfsBold_Italic_StrikeOutDouble);
     
     $myStyle = array(
         "bold" => true,
