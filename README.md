@@ -5,15 +5,22 @@ Excel Writer Service For php or other scripts.
 Windows
 
 打开CMD命令行
+
 cd 到当前目录
+
 运行 ./ExcelService.exe -service install 安装服务
+
 ./ExcelService.exe -service start 开启服务 也可以在服务管理界面启动
 
 Linux
 ssh shell 界面
+
 给予 ExcelServiceForlinux 运行权限  chmod 755 ./ExcelServiceForlinux
+
 给予 Demo/SimpleCreateExcel.php 运行权限 chmod 755 ./Demo/SimpleCreateExcel.php
+
 运行 ./ExcelServiceForlinux -service install 安装服务
+
 ./ExcelServiceForlinux -service start 启动服务
 
 # Create Excel
